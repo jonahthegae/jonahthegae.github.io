@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700;900&display=swap');
+
+#apps-and-widgets {
+  padding: 1em;
+  height: 37.5em;
+  width: 26em;
+  background-image: url("../assets/img/background.jpg");
+}
+
+.app {
+  padding: 0 .5em;
+}
+
+.app img {
+  height: 5em;
+  border-radius: 1.5em;
+  border-style: outset;
+  border-color: rgba(0, 0, 0, 0.175);
+}
+
+.app p {
+  text-align: center;
+  font-size: 1em;
+  margin-top: .1em;
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  color: white;
+}
