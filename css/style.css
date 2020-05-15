@@ -2,7 +2,7 @@
 
 #apps-and-widgets {
   padding: 1em;
-  height: 37.5em;
+  height: 600px;
   width: 26em;
   background-image: url("../assets/img/background.jpg");
 }
@@ -25,4 +25,48 @@
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   color: white;
+}
+
+#songs {
+  padding: 0;
+  height: 600px;
+  width: 26em;
+  background-color: #232323;
+}
+
+#songs h1 {
+  font-family: "Jost", sans-serif;
+  font-weight: 900;
+  font-size: 2.5em;
+  text-align: center;
+  margin: 0;
+  color: #E5E5E5;
+}
+
+#songs #song-list {
+  padding:1em;
+}
+
+#songs img {
+  height: 4em;
+  float: center;
+}
+
+#songs #head {
+  background-color: #000;
+  padding: 0;
+}
+
+.song-name {
+  color: #E5E5E5;
+  margin-bottom: 0;
+  font-family: "Jost", sans-serif;
+}
+
+.song-author {
+  font-size: .75em;
+  font-weight: 300;
+  margin-top: 0;
+  font-family: "Jost", sans-serif;
+  color: #C0C0C0;
 }
