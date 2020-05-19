@@ -44,7 +44,7 @@
 }
 
 #songs #song-list {
-  padding:1em;
+  padding: 1em;
 }
 
 #songs img {
@@ -69,4 +69,38 @@
   margin-top: 0;
   font-family: "Jost", sans-serif;
   color: #C0C0C0;
+}
+
+#pics {
+  padding: 0;
+  height: 600px;
+  width: 26em;
+  background-color: #232323;
+}
+
+#pics h1 {
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+  padding-top: 1.25em;
+  text-align: center;
+  color: #E5E5E5;
+}
+
+#pics p {
+  font-family: "Jost", sans-serif;
+  margin: 0;
+  color: #E5E5E5;
+  padding-left: 10px;
+}
+
+#pics .big {
+  width: 200px;
+  padding: 0;
+  margin: 0;
+}
+
+#pics .smol {
+  width: 130px;
+  padding: 0;
+  margin: 0;
 }
